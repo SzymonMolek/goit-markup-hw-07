@@ -23,6 +23,7 @@
 {
     border-bottom: 1px solid var(--website-header-border);
     width: 100%;
+    height: 80px;
 }
 
 .topbar__content
@@ -88,7 +89,7 @@
     background-color: var(--bg-color);
     position: absolute;
     border-radius: 2px;
-    top: 43px;
+    top: 44px;
     left: 0px;
 }
 
@@ -418,6 +419,7 @@ ul
 
 .img-list 
 {
+    height: 294px;
     display: flex;
     justify-content: left;
     gap: 30px;
@@ -559,13 +561,14 @@ ul
 .socialMedia .details .detail
 {
     transition-duration: 500ms;
+    border-radius: 50%;
 }
 
 .content .our-team .socialMedia .details .detail:hover,
 .content .our-team .socialMedia .details .detail:focus
 {
     background: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
+    /* border-radius: 50%; */
     background: var(--bg-color);
     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 
@@ -973,7 +976,8 @@ div
 
 .footer .footer-informations .socialMedia .detail a 
 {
-    text-decoration: none; 
+    text-decoration: none;
+    transition-duration: 500ms;
 }
 
 
