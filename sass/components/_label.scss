@@ -82,21 +82,21 @@
             transform: translatey(100%);
             transition: transform 250ms ease;
 
-        p 
+            p 
+            {
+                color: var(--fill);
+        
+                font-size: 18px;
+                line-height: 1.56;
+                letter-spacing: 0.03em;
+        
+                padding-top: 49px;
+                padding-left: 24px;
+            }
+        }
+
+        figcaption 
         {
-            color: var(--fill);
-    
-            font-size: 18px;
-            line-height: 1.56;
-            letter-spacing: 0.03em;
-    
-            padding-top: 49px;
-            padding-left: 24px;
-        }
-
-        }
-
-        figcaption {
             position: relative;
 
             border-left: 1px solid var(--border-color);
@@ -146,5 +146,4 @@
         padding-left: 24px;
         padding-top: 4px;
     }
-
 }
